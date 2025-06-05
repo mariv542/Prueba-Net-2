@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mariv\\Desktop\\EntityFramework\\Almacen\\",
+  "WorkspaceRootPath": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\EntityFramework\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70238DBE-58EA-41E8-AC79-9266441A3EEC}|Almacen\\Almacen.csproj|c:\\users\\mariv\\desktop\\entityframework\\almacen\\almacen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{70238DBE-58EA-41E8-AC79-9266441A3EEC}|Almacen\\Almacen.csproj|c:\\users\\cristobalo.o\\desktop\\prueba-net-2\\entityframework\\almacen\\models\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70238DBE-58EA-41E8-AC79-9266441A3EEC}|Almacen\\Almacen.csproj|solutionrelative:almacen\\models\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70238DBE-58EA-41E8-AC79-9266441A3EEC}|Almacen\\Almacen.csproj|c:\\users\\cristobalo.o\\desktop\\prueba-net-2\\entityframework\\almacen\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70238DBE-58EA-41E8-AC79-9266441A3EEC}|Almacen\\Almacen.csproj|solutionrelative:almacen\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70238DBE-58EA-41E8-AC79-9266441A3EEC}|Almacen\\Almacen.csproj|c:\\users\\cristobalo.o\\desktop\\prueba-net-2\\entityframework\\almacen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70238DBE-58EA-41E8-AC79-9266441A3EEC}|Almacen\\Almacen.csproj|solutionrelative:almacen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70238DBE-58EA-41E8-AC79-9266441A3EEC}|Almacen\\Almacen.csproj|c:\\users\\mariv\\desktop\\entityframework\\almacen\\almacen\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{70238DBE-58EA-41E8-AC79-9266441A3EEC}|Almacen\\Almacen.csproj|c:\\users\\cristobalo.o\\desktop\\prueba-net-2\\entityframework\\almacen\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{70238DBE-58EA-41E8-AC79-9266441A3EEC}|Almacen\\Almacen.csproj|solutionrelative:almacen\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70238DBE-58EA-41E8-AC79-9266441A3EEC}|Almacen\\Almacen.csproj|c:\\users\\mariv\\desktop\\entityframework\\almacen\\almacen\\models\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{70238DBE-58EA-41E8-AC79-9266441A3EEC}|Almacen\\Almacen.csproj|c:\\users\\cristobalo.o\\desktop\\prueba-net-2\\entityframework\\almacen\\models\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70238DBE-58EA-41E8-AC79-9266441A3EEC}|Almacen\\Almacen.csproj|solutionrelative:almacen\\models\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70238DBE-58EA-41E8-AC79-9266441A3EEC}|Almacen\\Almacen.csproj|c:\\users\\mariv\\desktop\\entityframework\\almacen\\almacen\\models\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70238DBE-58EA-41E8-AC79-9266441A3EEC}|Almacen\\Almacen.csproj|solutionrelative:almacen\\models\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +30,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\EntityFramework\\Almacen\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Almacen\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\EntityFramework\\Almacen\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Almacen\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T22:23:40.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mariv\\Desktop\\EntityFramework\\Almacen\\Almacen\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\EntityFramework\\Almacen\\Program.cs",
               "RelativeDocumentMoniker": "Almacen\\Program.cs",
-              "ToolTip": "C:\\Users\\mariv\\Desktop\\EntityFramework\\Almacen\\Almacen\\Program.cs",
+              "ToolTip": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\EntityFramework\\Almacen\\Program.cs",
               "RelativeToolTip": "Almacen\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCQAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-25T22:50:58.418Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\mariv\\Desktop\\EntityFramework\\Almacen\\Almacen\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\EntityFramework\\Almacen\\appsettings.json",
               "RelativeDocumentMoniker": "Almacen\\appsettings.json",
-              "ToolTip": "C:\\Users\\mariv\\Desktop\\EntityFramework\\Almacen\\Almacen\\appsettings.json",
+              "ToolTip": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\EntityFramework\\Almacen\\appsettings.json",
               "RelativeToolTip": "Almacen\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-25T21:44:25.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T21:44:25.37Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\mariv\\Desktop\\EntityFramework\\Almacen\\Almacen\\Models\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\EntityFramework\\Almacen\\Models\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Almacen\\Models\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\mariv\\Desktop\\EntityFramework\\Almacen\\Almacen\\Models\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\EntityFramework\\Almacen\\Models\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Almacen\\Models\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T21:22:29.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-25T21:22:29.88Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\mariv\\Desktop\\EntityFramework\\Almacen\\Almacen\\Models\\Entities\\Product.cs",
+              "DocumentMoniker": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\EntityFramework\\Almacen\\Models\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "Almacen\\Models\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\mariv\\Desktop\\EntityFramework\\Almacen\\Almacen\\Models\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\EntityFramework\\Almacen\\Models\\Entities\\Product.cs",
               "RelativeToolTip": "Almacen\\Models\\Entities\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-25T20:34:42.864Z",
               "EditorCaption": ""
