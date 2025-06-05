@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mariv\\Desktop\\EntityFramework\\Almacen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70238DBE-58EA-41E8-AC79-9266441A3EEC}|Almacen\\Almacen.csproj|c:\\users\\mariv\\desktop\\entityframework\\almacen\\almacen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70238DBE-58EA-41E8-AC79-9266441A3EEC}|Almacen\\Almacen.csproj|solutionrelative:almacen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70238DBE-58EA-41E8-AC79-9266441A3EEC}|Almacen\\Almacen.csproj|c:\\users\\mariv\\desktop\\entityframework\\almacen\\almacen\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{70238DBE-58EA-41E8-AC79-9266441A3EEC}|Almacen\\Almacen.csproj|solutionrelative:almacen\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70238DBE-58EA-41E8-AC79-9266441A3EEC}|Almacen\\Almacen.csproj|c:\\users\\mariv\\desktop\\entityframework\\almacen\\almacen\\models\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70238DBE-58EA-41E8-AC79-9266441A3EEC}|Almacen\\Almacen.csproj|solutionrelative:almacen\\models\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70238DBE-58EA-41E8-AC79-9266441A3EEC}|Almacen\\Almacen.csproj|c:\\users\\mariv\\desktop\\entityframework\\almacen\\almacen\\models\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70238DBE-58EA-41E8-AC79-9266441A3EEC}|Almacen\\Almacen.csproj|solutionrelative:almacen\\models\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mariv\\Desktop\\EntityFramework\\Almacen\\Almacen\\Program.cs",
+              "RelativeDocumentMoniker": "Almacen\\Program.cs",
+              "ToolTip": "C:\\Users\\mariv\\Desktop\\EntityFramework\\Almacen\\Almacen\\Program.cs",
+              "RelativeToolTip": "Almacen\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T22:50:58.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mariv\\Desktop\\EntityFramework\\Almacen\\Almacen\\appsettings.json",
+              "RelativeDocumentMoniker": "Almacen\\appsettings.json",
+              "ToolTip": "C:\\Users\\mariv\\Desktop\\EntityFramework\\Almacen\\Almacen\\appsettings.json",
+              "RelativeToolTip": "Almacen\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-25T21:44:25.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mariv\\Desktop\\EntityFramework\\Almacen\\Almacen\\Models\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Almacen\\Models\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\mariv\\Desktop\\EntityFramework\\Almacen\\Almacen\\Models\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Almacen\\Models\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T21:22:29.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\mariv\\Desktop\\EntityFramework\\Almacen\\Almacen\\Models\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Almacen\\Models\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\mariv\\Desktop\\EntityFramework\\Almacen\\Almacen\\Models\\Entities\\Product.cs",
+              "RelativeToolTip": "Almacen\\Models\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T20:34:42.864Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
