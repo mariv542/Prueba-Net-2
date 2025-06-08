@@ -49,8 +49,8 @@ namespace Biblioteca.Controllers
         // GET: Prestamos/Create
         public IActionResult Create()
         {
-            ViewData["LibroId"] = new SelectList(_context.Libro, "Id", "Id");
-            ViewData["UsuarioId"] = new SelectList(_context.Set<Usuario>(), "Id", "Id");
+            ViewData["LibroId"] = new SelectList(_context.Libro, "Id", "CodigoISBN");
+            ViewData["UsuarioId"] = new SelectList(_context.Usuario, "Id", "Correo");
             return View();
         }
 
@@ -68,8 +68,8 @@ namespace Biblioteca.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["LibroId"] = new SelectList(_context.Libro, "Id", "Id", prestamo.LibroId);
-            ViewData["UsuarioId"] = new SelectList(_context.Set<Usuario>(), "Id", "Id", prestamo.UsuarioId);
+            ViewData["LibroId"] = new SelectList(_context.Libro, "Id", "CodigoISBN", prestamo.LibroId);
+            ViewData["UsuarioId"] = new SelectList(_context.Usuario, "Id", "Correo", prestamo.UsuarioId);
             return View(prestamo);
         }
 
@@ -87,7 +87,7 @@ namespace Biblioteca.Controllers
                 return NotFound();
             }
             ViewData["LibroId"] = new SelectList(_context.Libro, "Id", "Id", prestamo.LibroId);
-            ViewData["UsuarioId"] = new SelectList(_context.Set<Usuario>(), "Id", "Id", prestamo.UsuarioId);
+            ViewData["UsuarioId"] = new SelectList(_context.Usuario, "Id", "Id", prestamo.UsuarioId);
             return View(prestamo);
         }
 
@@ -124,7 +124,7 @@ namespace Biblioteca.Controllers
                 return RedirectToAction(nameof(Index));
             }
             ViewData["LibroId"] = new SelectList(_context.Libro, "Id", "Id", prestamo.LibroId);
-            ViewData["UsuarioId"] = new SelectList(_context.Set<Usuario>(), "Id", "Id", prestamo.UsuarioId);
+            ViewData["UsuarioId"] = new SelectList(_context.Usuario, "Id", "Id", prestamo.UsuarioId);
             return View(prestamo);
         }
 
