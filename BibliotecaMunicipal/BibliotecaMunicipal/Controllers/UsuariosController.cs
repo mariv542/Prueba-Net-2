@@ -21,25 +21,28 @@ namespace BibliotecaMunicipal.Controllers
             _context = context;
         }
 
-        // GET: api/Usuarios
+        // GET: api/Usuarios listar usuarios
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Usuario>>> GetUsuario()
         {
             return await _context.Usuario.ToListAsync();
         }
 
-        // GET: api/Usuarios/5
+        // GET: api/Usuarios/5 por id
         [HttpGet("{id}")]
         public async Task<ActionResult<Usuario>> GetUsuario(Guid id)
         {
-            var usuario = await _context.Usuario.FindAsync(id);
+            var usuario = await _context.Usuario
+                .Include(u => u.Prestamos)
+                .ThenInclude(p => p.Libro) // Opcional
+                .FirstOrDefaultAsync(u => u.Id == id);
 
             if (usuario == null)
             {
                 return NotFound();
             }
 
-            return usuario;
+            return Ok(usuario);
         }
 
         // PUT: api/Usuarios/5

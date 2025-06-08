@@ -6,10 +6,10 @@ namespace Biblioteca.Models.Entities
     {
         public Guid Id { get; set; }
         public Guid LibroId { get; set; }
-        public Libro Libro { get; set; }
+        public Libro? Libro { get; set; }
 
         public Guid UsuarioId { get; set; }
-        public Usuario Usuario { get; set; }
+        public Usuario? Usuario { get; set; }
         public required DateTime FechaPrestamo { get; set; }
         public DateTime? FechaDevolucion { get; set; }
 

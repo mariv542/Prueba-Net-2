@@ -21,14 +21,14 @@ namespace BibliotecaMunicipal.Controllers
             _context = context;
         }
 
-        // GET: api/Libros
+        // GET: api/Libros todos los libros
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Libro>>> GetLibro()
         {
             return await _context.Libro.ToListAsync();
         }
 
-        // GET: api/Libros/5
+        // GET: api/Libros/5 muestra detyalles de libros por id
         [HttpGet("{id}")]
         public async Task<ActionResult<Libro>> GetLibro(Guid id)
         {
@@ -42,7 +42,7 @@ namespace BibliotecaMunicipal.Controllers
             return libro;
         }
 
-        // PUT: api/Libros/5
+        // PUT: api/Libros/5 modifica un libro por id
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutLibro(Guid id, Libro libro)
@@ -73,7 +73,7 @@ namespace BibliotecaMunicipal.Controllers
             return NoContent();
         }
 
-        // POST: api/Libros
+        // POST: api/Libros crea un nuevo libro
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<Libro>> PostLibro(Libro libro)
@@ -84,7 +84,7 @@ namespace BibliotecaMunicipal.Controllers
             return CreatedAtAction("GetLibro", new { id = libro.Id }, libro);
         }
 
-        // DELETE: api/Libros/5
+        // DELETE: api/Libros/5 elimina un libro por id
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteLibro(Guid id)
         {
@@ -92,6 +92,11 @@ namespace BibliotecaMunicipal.Controllers
             if (libro == null)
             {
                 return NotFound();
+            }
+
+            if (libro.EstadoPrestado)
+            {
+                return BadRequest("No se puede eliminar un libro que está actualmente prestado.");
             }
 
             _context.Libro.Remove(libro);

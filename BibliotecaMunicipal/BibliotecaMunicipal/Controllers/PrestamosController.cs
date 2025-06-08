@@ -76,7 +76,7 @@ namespace BibliotecaMunicipal.Controllers
         // POST: api/Prestamos
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Prestamo>> PostPrestamo(Prestamo prestamo)
+        public async Task<ActionResult<Prestamo>> PostPrestamo([FromBody] Prestamo prestamo)
         {
             _context.Prestamo.Add(prestamo);
             await _context.SaveChangesAsync();
