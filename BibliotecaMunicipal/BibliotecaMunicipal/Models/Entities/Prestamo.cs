@@ -19,8 +19,10 @@ namespace Biblioteca.Models.Entities
         }
         public Prestamo(Guid id, Guid libroId, Guid usuarioId, DateTime fechaPrestamo, DateTime? fechaDevolucion = null)
         {
+            //valida  que la fecha de prestamo no sea del futuro
             if (fechaPrestamo > DateTime.Now)
                 throw new ArgumentException("La fecha de prestamo no puede estar representada en el futuro", nameof(fechaPrestamo));
+            //valida que la fecha  de devolucion no sea  anterior al prestamo
             if (fechaDevolucion.HasValue && fechaDevolucion.Value < fechaPrestamo)
                 throw new ArgumentException("La fecha de devolucion no pue ser anterior a la fecha de prestamo", nameof(fechaDevolucion));
 
